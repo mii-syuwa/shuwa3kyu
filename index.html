@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>手話検定3級 勉強アプリ</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+    background: linear-gradient(160deg, #fdf6ec 0%, #fae8d8 100%);
+    color: #4a3728;
+    padding: 16px 14px 40px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+    padding: 18px 10px 14px;
+  }
+  header h1 {
+    font-size: 22px;
+    color: #b5651d;
+  }
+  header p {
+    font-size: 13px;
+    color: #8a6d55;
+    margin-top: 6px;
+  }
+  details {
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 8px rgba(140, 90, 40, 0.12);
+    overflow: hidden;
+  }
+  summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 16px 18px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #8a4b14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "▼"; font-size: 12px; color: #c89b6f; transition: transform .2s; }
+  details[open] summary::after { transform: rotate(180deg); }
+  .items { padding: 4px 12px 14px; }
+  a.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #ffb86b, #f59042);
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 16px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px rgba(180, 100, 30, 0.25);
+  }
+  a.btn:active { transform: scale(0.97); }
+  a.btn.green { background: linear-gradient(135deg, #7cc47f, #4f9e54); }
+  a.btn.blue  { background: linear-gradient(135deg, #6db3e8, #3d82c4); }
+  a.btn .ic { font-size: 20px; }
+  a.btn .time { margin-left: auto; font-size: 12px; opacity: .85; font-weight: 400; }
+  .note {
+    font-size: 12px;
+    color: #8a6d55;
+    padding: 0 6px 10px;
+    line-height: 1.6;
+  }
+  footer { text-align: center; font-size: 12px; color: #b08e6e; margin-top: 24px; line-height: 1.8; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🤟 手話検定3級 勉強アプリ</h1>
+  <p>10月の全国手話検定試験3級 合格を目指して！</p>
+</header>
+
+<details open>
+  <summary>🎯 検定対策動画</summary>
+  <div class="items">
+    <a class="btn" href="https://www.youtube.com/watch?v=qcNA_-u7uGY"><span class="ic">📚</span> 3級 手話を覚えてみよう（総合）<span class="time">1:35:33</span></a>
+    <a class="btn" href="https://www.youtube.com/watch?v=ivSe12__obs"><span class="ic">👀</span> 単語読み取り20＋似ている単語80<span class="time">44:05</span></a>
+    <a class="btn" href="https://www.youtube.com/watch?v=f78psXcGc_k"><span class="ic">👀</span> 単語読み取り10＋似ている単語40<span class="time">37:25</span></a>
+    <a class="btn" href="https://www.youtube.com/watch?v=uwRmLcgROk8"><span class="ic">📝</span> 短文読み取り7問（解説付き）<span class="time">39:51</span></a>
+    <a class="btn" href="https://www.youtube.com/watch?v=I1vcSbCKspQ"><span class="ic">🎤</span> 面接試験の完全再現<span class="time">5:01</span></a>
+  </div>
+</details>
+
+<details>
+  <summary>📗 3級単語 80語シリーズ</summary>
+  <div class="items">
+    <a class="btn" href="https://www.youtube.com/watch?v=CqjXjV8MabU"><span class="ic">1️⃣</span> 3級単語 80語（その1）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=LaQ-r1VPsjI"><span class="ic">2️⃣</span> 3級単語 80語（その2）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=Gt00F8O6yfc"><span class="ic">3️⃣</span> 3級単語 80語（その3）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=xe6FL7DsJb0"><span class="ic">4️⃣</span> 3級単語 80語（その4）</a>
+  </div>
+</details>
+
+<details>
+  <summary>☝️ 指文字読み取り</summary>
+  <div class="items">
+    <a class="btn" href="https://www.youtube.com/watch?v=utkHNSHB-IY&t=120"><span class="ic">☝️</span> 初級編（100問100答）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=7cE4WuCjMV8&t=150"><span class="ic">✌️</span> 中級編（100問100答）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=gOuzARP9fHM&t=53"><span class="ic">🏅</span> 上級編（100問100答）</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=ir8J_Fk_59s&t=112"><span class="ic">🔤</span> 読み取り Lv1</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=0j_kv6OqC1I&t=210"><span class="ic">🔤</span> 読み取り Lv2</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=kSKfBqpbYRk&t=60"><span class="ic">🔤</span> 読み取り Lv3</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=Hy7Xdmd2bvg"><span class="ic">🔤</span> 読み取り Lv4</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=Rvk-PCLOG3Y&t=75"><span class="ic">🔤</span> 読み取り Lv5</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=bDesqyRr_Jc"><span class="ic">🔤</span> 読み取り Lv6</a>
+  </div>
+</details>
+
+<details>
+  <summary>📄 公式資料（PDF）</summary>
+  <div class="items">
+    <a class="btn green" href="https://kentei.com-sagano.com/wp-content/uploads/2022/04/tango-3kyu.pdf"><span class="ic">📄</span> 3級 基本単語リスト</a>
+    <a class="btn green" href="https://kentei.com-sagano.com/wp-content/uploads/2022/04/tango-4kyu.pdf"><span class="ic">📄</span> 4級 基本単語リスト（復習用）</a>
+    <a class="btn green" href="https://kentei.com-sagano.com/wp-content/uploads/2022/03/%E5%8F%97%E9%A8%93%E3%81%AE%E3%82%81%E3%82%84%E3%81%99.pdf"><span class="ic">📋</span> 受験のめやす</a>
+    <a class="btn green" href="https://kentei.com-sagano.com/wp-content/uploads/2022/03/2022-Can-do%E3%83%AA%E3%82%B9%E3%83%88.pdf"><span class="ic">✅</span> Can-doリスト</a>
+    <a class="btn green" href="https://kentei.com-sagano.com/"><span class="ic">🏠</span> 全国手話検定 公式サイト</a>
+  </div>
+</details>
+
+<details>
+  <summary>🔍 手話辞典（調べもの）</summary>
+  <div class="items">
+    <a class="btn blue" href="https://www.nhk.or.jp/strl/signlanguagecg/"><span class="ic">🖥️</span> NHK手話CG（単語検索）</a>
+    <a class="btn blue" href="https://www.nhk.or.jp/strl/signlanguagecg/searchJSL/area.html"><span class="ic">🗺️</span> 地名手話</a>
+    <a class="btn blue" href="https://www.nhk.or.jp/strl/signlanguagecg/searchJSL/numbers.html"><span class="ic">🔢</span> 数に関する表現</a>
+    <a class="btn blue" href="https://www.nhk.or.jp/strl/signlanguagecg/searchJSL/english.html"><span class="ic">🔤</span> ローマ字大文字</a>
+  </div>
+</details>
+
+<details>
+  <summary>🎧 音声で復習（使い方）</summary>
+  <div class="items">
+    <div class="note">
+      「基礎知識の読み上げ」や「ろうと文化」の音声（MP3）は、パソコンからAirDropでiPhoneに送って「ファイル」アプリから再生できます。<br><br>
+      💡 寝る前や移動中の聞き流しにおすすめです。
+    </div>
+  </div>
+</details>
+
+<footer>
+  📖 過去問は『全国手話検定試験 解説＆過去問題集』<br>（中央法規出版・DVD付き）がおすすめ<br><br>
+  ミヨコさんの合格を応援しています 🌸
+</footer>
+
+</body>
+</html>
